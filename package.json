@@ -1,0 +1,13 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "Firefox extension to convert currencies to SEK",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "web-ext": "^7.10.0"
+  }
+} 

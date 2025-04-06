@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    select {
+      width: 100%;
+      padding: 8px;
+      margin: 10px 0;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    .info {
+      font-size: 12px;
+      color: #666;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Currency Converter Settings</h3>
+  <label for="targetCurrency">Convert to:</label>
+  <select id="targetCurrency">
+    <option value="USD">US Dollar (USD)</option>
+    <option value="EUR">Euro (EUR)</option>
+    <option value="GBP">British Pound (GBP)</option>
+    <option value="JPY">Japanese Yen (JPY)</option>
+    <option value="AUD">Australian Dollar (AUD)</option>
+    <option value="CAD">Canadian Dollar (CAD)</option>
+  </select>
+  <div class="info">
+    Select text containing a currency amount (e.g., $10.00) and right-click to convert.
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
