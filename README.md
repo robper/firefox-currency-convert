@@ -68,3 +68,5 @@ Firefox does not support service_worker, so we add is as a script as well, this 
     "scripts": ["background.js"] 
   },
 ```
+# TODO 
+Update link or host on AMO https://extensionworkshop.com/documentation/manage/updating-your-extension/#enable-update
