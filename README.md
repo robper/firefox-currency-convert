@@ -1,8 +1,3 @@
-# Todo
-
-V3
-Darkmode popup
-
 # Usage 
 
 1. Click the icon on the browser toolbar to select currency to convert to.
@@ -62,3 +57,14 @@ Alternatives
 Swedish Riksbanken: https://developer.api.riksbank.se/api-details#api=swea-api
 FXRates: https://fxratesapi.com/ 1k/månad  
 Can only do 1 conversion at a time, file with all conversions for one currency: https://hexarate.paikama.co/
+
+# Manifest V3
+
+Firefox does not support service_worker, so we add is as a script as well, this way we can keep v3 manifest, why I'd want that, I dont know.
+
+```json
+"background": {
+    "service_worker": "background.js",
+    "scripts": ["background.js"] 
+  },
+```
